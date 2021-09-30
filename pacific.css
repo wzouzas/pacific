@@ -6,8 +6,8 @@ header{
 	color: white; /*Change color of header from grey to white*/
 	background-image: url("sunset.jpg"); /*Add background image*/
 	background-repeat: no-repeat; /*Remove picture repeats*/
-	background-position: right; /*Position background in the center of page*/
-	background-color: rgb(0, 0, 55);
+	background-position: right; /*Position background to right of page*/
+	background-color: rgb(0, 0, 55); /*Add background color*/
 }
 
 
@@ -16,28 +16,28 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: linear-gradient(white,#00569f); /*Add correct background color with a vertical gradient*/
 	background-size: auto 1000px; /*Dimensions of body background*/
-	min-width: 600px; /*Set minimum width of page to maintain look*/
+	min-width: 600px; /*Set minimum width of page*/
 }
 
 nav ul {
 	float: left; /*Use float to place navigation next to main content*/
 	font-size: 1.2em;
 	list-style: none; /*Remove bullets on navigation bar*/
-	margin-top: 20px; /*Remove space between top of navigation bar background and title background*/
+	margin-top: 20px; /*Space between top of navigation bar and header*/
 	padding-left: 20px;
 }
 
-/* Style Wrapper Background and Size */
+/* Style Wrapper - Background and Size */
 #wrapper {
 	background-color: rgb(141, 197, 228);
 	margin: auto 10% auto 10%;
 }
 
-/* Style navigation bar */
+/* Style Navigation Links */
 nav a:link{
 	text-decoration: none; /*Remove underline*/
-	color: rgb(0, 0, 55); /*Change to darker color from picture*/
-	font-weight: bold; /*Bold text in navigation bar*/
+	color: rgb(0, 0, 55); /*Change to darker color*/
+	font-weight: bold; /*Bold text*/
 }
 
 nav a:visited {
@@ -50,7 +50,7 @@ nav a:hover {
 /* Style Main Content */
 #content{
 	background-color: white; /*Add white background*/
-	padding-top: 1px; /*Extend white background to touch header photo*/
+	padding-top: 1px; /*Extend white background on top to touch header*/
 	margin-left: 190px; /*Add margin to left of content*/
 	padding-left: 30px; /*Add some white space next to navigation bar*/
 	padding-right: 10px; /*Add some white space next to content*/
@@ -81,7 +81,7 @@ h1, h2 {
 	list-style-position: inside; 
 }
 
-/* Style Resort Title of Content */
+/* Style Resort in Content */
 .resort { 
 	font-weight: bold;
 	font-size: 115%;
