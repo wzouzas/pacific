@@ -1,3 +1,17 @@
+/*
+    Course: COMP.4610 GUI Programming I
+    Name: William Zouzas
+    Email: william_zouzas@student.uml.edu
+    Date Created: 9/16/2021
+
+    File: pacific.css
+    GUI Assignment: Homework 2 - Style a Site with External CSS
+    File Description: Based on the guidelines, this css file was used to style a webpage. Various CSS techniques were utilized to complete this assignment including backgrounds, formatting, layout, positioning, and much more. A reference including screenshots of the desired page look was provided and was utilized to create the resulting page for Pacific Trails Resort.
+
+    Copyright (c) 2021 by William. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+    Updated by WZ on September 30th, 2021
+*/
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
